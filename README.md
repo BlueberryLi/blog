@@ -1,2 +1,2 @@
-sudo lsof -n -P | grep :80
+sudo lsof -n -P | grep :8080
 sudo kill 
