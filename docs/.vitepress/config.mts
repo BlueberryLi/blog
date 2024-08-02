@@ -2,9 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Blog",
-  description: "A VitePress Site",
+  lang: 'en-US',
+  title: "奇迹行者的博客",
+  description: "奇迹行者还在刷野~",
+  head: [['link', { rel: 'icon', href: '/Blog/favicon.jpg' }]],
   base: "/Blog/",
+  srcExclude: ['**/README.md', '**/TODO.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
