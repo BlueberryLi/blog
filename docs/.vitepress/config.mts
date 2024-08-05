@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: "奇迹行者的博客",
   description: "奇迹行者还在刷野~",
+  srcDir: './src',
   head: [['link', { rel: 'icon', href: '/blog/favicon.jpg' }]],
   base: "/blog/",
   srcExclude: ['**/README.md', '**/TODO.md'],
@@ -12,15 +13,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '例子', link: '/markdown-examples' }
+      { text: '笔记', link: '/build-blog.md' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '使用VitePress搭建博客', link: '/build-blog.md' }
         ]
       }
     ],
