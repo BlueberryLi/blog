@@ -20,7 +20,7 @@ docs/.vitepress/dist
 
 4、配置config中的head图片无效
 ```md
-图片放置到docs/public文件夹中
+图片放置到docs/src/public文件夹中
 ```
 5、项目目录结构
 ```md
@@ -31,9 +31,9 @@ docs/.vitepress/dist
 ├─ docs
 │  ├─ .vitepress
 │  │  └─ config.js
-│  ├─ public
-│  │  └─ favicon.jpg
 │  ├─ src
+│  │  ├─ public
+│  │  │  └─ favicon.jpg
 │  │  └─ index.md
 ├─ .gitignore
 ├─ package.json
