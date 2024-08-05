@@ -5,14 +5,14 @@ export default defineConfig({
   lang: 'en-US',
   title: "奇迹行者的博客",
   description: "奇迹行者还在刷野~",
-  head: [['link', { rel: 'icon', href: '/Blog/favicon.jpg' }]],
-  base: "/Blog/",
+  head: [['link', { rel: 'icon', href: '/blog/favicon.jpg' }]],
+  base: "/blog/",
   srcExclude: ['**/README.md', '**/TODO.md'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: ' 例子', link: '/markdown-examples' }
+      { text: '例子', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -26,7 +26,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/BlueberryLi/Blog' }
+      { icon: 'github', link: 'https://github.com/BlueberryLi/blog' }
     ]
   }
 })
