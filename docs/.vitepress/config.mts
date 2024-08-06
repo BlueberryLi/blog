@@ -8,7 +8,16 @@ export default defineConfig({
   srcDir: './src',
   head: [['link', { rel: 'icon', href: '/blog/favicon.jpg' }]],
   base: "/blog/",
-  srcExclude: ['**/README.md', '**/TODO.md'],
+  srcExclude: ['**/README.md'],
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,7 +29,8 @@ export default defineConfig({
       {
         text: '',
         items: [
-          { text: '使用VitePress搭建博客', link: '/build-blog.md' }
+          { text: '使用VitePress搭建博客', link: '/build-blog.md' },
+          { text: 'HTML中的input使用经验', link: '/HTML5-input.md' }
         ]
       }
     ],

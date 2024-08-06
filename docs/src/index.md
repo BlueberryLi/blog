@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "完善中..."
+  name: "搭建中..."
   text: ""
   actions:
     - theme: brand
