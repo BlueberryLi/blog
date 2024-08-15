@@ -1,12 +1,11 @@
 ###以下是一些适合放在前端开发个人博客中的内容：
 
+[W3school](https://www.w3school.com.cn "W3school")
+
 >技术文章
 - 分享前端开发的新技术、框架和工具的使用心得和教程，如Vue.js、React、Angular等。
 - 讲解 HTML、CSS- 和 JavaScript，的基础知识、最佳实践和技巧。
 - 解决常见前端开发问题的方法和经验总结。
-
-
-![Image text](/https://wx.qlogo.cn/mmhead/nBcYE97sU47TABDD0eZs9UHyIrHpX9e7PERZB03XdaJMnKmLiaLvOcNEzcjcNFKCSX8NibYb3Tuqg/0)
 
 >项目经验
 - 介绍自己参与或主导的前端项目，包括项目背景、目标、技术选型、架构设计和实现过程。
