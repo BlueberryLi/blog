@@ -31,7 +31,8 @@ export default defineConfig({
         items: [
           { text: '使用VitePress搭建博客', link: '/build-blog.md' },
           { text: 'HTML中的input使用经验', link: '/HTML5-input.md' },
-          { text: '前端基础查露补缺', link: '/W3school.md' }
+          { text: '前端基础查露补缺', link: '/W3school.md' },
+          { text: 'Markdown语法', link: '/Markdown/Markdown.md' }
         ]
       }
     ],

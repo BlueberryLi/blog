@@ -1,6 +1,4 @@
-###以下是一些适合放在前端开发个人博客中的内容：
-
-[W3school](https://www.w3school.com.cn "W3school")
+以下是一些适合放在前端开发个人博客中的内容：
 
 >技术文章
 - 分享前端开发的新技术、框架和工具的使用心得和教程，如Vue.js、React、Angular等。
