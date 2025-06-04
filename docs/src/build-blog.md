@@ -17,7 +17,9 @@ docs/.vitepress/dist
 ```
 
 4、配置config中的head图片无效
+
 图片放置到docs/src/public文件夹中，在后续文档[资源处理](https://vitepress.dev/zh/guide/asset-handling)中提到
+
 5、项目目录结构
 ```md
 .
